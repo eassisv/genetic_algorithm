@@ -1,3 +1,16 @@
+'''
+
+    Trabalho 1 do componente curricular de Inteligência Artificial de 2019.1
+    O objetivo do trabalho é o uso de um algoritmo genético para a resolução
+    de um problema a escolha. O problema escolhido é a geração e coloração 
+    dos vértices de um grafo.
+
+    Alunos: Everton de Assis Vieira e Gabriel H. Moro
+    Contatos: <[...]>
+              <gabrielhmoro@gmail.com>
+
+'''
+
 import sys
 from random import choice, random
 import networkx as nx
