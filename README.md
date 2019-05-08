@@ -6,13 +6,8 @@ Desenvolvimento de algoritmo genético para resolução do problema de colaraç�
 Trabalho desenvolvido utilizando linguagem [Python 3.5+](https://www.python.org/) e bibliotecas [pyeasyga](https://github.com/remiomosowon/pyeasyga) e [Networkx](https://networkx.github.io/) 
 
 ### Instalação de dependências
-pyeasyga:
 ```
-pip install pyeasyga
-```
-Networkx:
-```
-pip install networkx==2.3
+pip install -r requirements.txt
 ```
 
 ### Execução
