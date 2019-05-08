@@ -80,7 +80,9 @@ def mutate_function(individual):
 
 def initialize_ga(graph, generations):
     ga = pyga.GeneticAlgorithm(
-        graph, generations=generations, mutation_probability=0.40, elitism=True, maximise_fitness=False)
+        graph, generations=generations, population_size=500,
+        crossover_probability=0.8, mutation_probability=0.40,
+        elitism=True, maximise_fitness=False)
     ga.create_individual = create_individual
     ga.fitness_function = fitness_function
     ga.crossover_function = crossover_function
@@ -96,7 +98,7 @@ def initialize_colors(nodes):
 
 
 def draw_graphs(initial_graph, final_graph):
-    layout = nx.kamada_kawai_layout(initial_graph)
+    layout = nx.spring_layout(initial_graph)
     plt.subplot(121)
     nx.draw_networkx(final_graph, pos=layout, node_color=[
                      u['color'] for u in result.nodes.values()])
@@ -114,7 +116,7 @@ if __name__ == '__main__':
         print('O programa precisa de 3 argumentos, leia o README para entender melhor')
         sys.exit(0)
     graph = nx.connected_watts_strogatz_graph(
-        nodes, nodes // 4, edge_creation_prob)
+        nodes, nodes // 2, edge_creation_prob)
     initialize_colors(nodes)
     ga = initialize_ga(graph, generations)
     ga.run()
