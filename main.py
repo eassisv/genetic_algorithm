@@ -84,13 +84,16 @@ if __name__ == '__main__':
     edge_creation_prob = float(sys.argv[2]) / 100
 
     graph = nx.connected_watts_strogatz_graph(
-        nodes, nodes // 2, edge_creation_prob)
+        nodes, nodes // 3, edge_creation_prob)
     ga = initialize_ga(graph)
     ga.run()
     result = ga.best_individual()[1]
     print(result.nodes)
     print(result.edges)
-    plt.subplot(111)
+    plt.subplot(121)
     nx.draw_networkx(result, node_color=[u['color']
                                          for u in result.nodes.values()])
+    plt.subplot(122)
+    nx.draw_networkx(graph)
+
     plt.show()
