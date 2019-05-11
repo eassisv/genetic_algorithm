@@ -3,8 +3,10 @@
 #### Descrição:
 Desenvolvimento de algoritmo genético para resolução do problema de colaração de vértices.
 
+Dados um número __n__ de vértices, uma probabilidade __p__ (de 0 à 100) para criação de arestas entre dois vértices e um número de gerações __g__, a aplicação gera um grafo aleatório com __n__ vértices e, utilizando um algoritmo genético, colore seus vértices de forma que dois vértices conectados por uma aresta não tenham a mesma cor.
+
 #### Detalhes:
-Trabalho desenvolvido utilizando linguagem [Python 3.5+](https://www.python.org/) e bibliotecas [pyeasyga](https://github.com/remiomosowon/pyeasyga) e [Networkx](https://networkx.github.io/) 
+Trabalho desenvolvido utilizando linguagem [Python 3.5+](https://www.python.org/) e bibliotecas [pyeasyga](https://github.com/remiomosowon/pyeasyga) e [Networkx](https://networkx.github.io/).
 
 ### Instalação de dependências
 ```
