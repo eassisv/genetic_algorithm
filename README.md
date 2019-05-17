@@ -16,6 +16,6 @@ pip install -r requirements.txt
 ### Execução
 Depois de instaladas as dependências:
 ```
-python main.py n p g
+python main.py n k p g
 ```
-Sendo __n__ é o número de vértices, __p__ a probabilidade da criação de uma aresta e __g__ o número de gerações a serem executadas.
+Sendo __n__ é o número de vértices, __k__ número de vizinhos com os quais um vértice se conectará, __p__ a probabilidade da substituição de uma aresta e __g__ o número de gerações a serem executadas.
