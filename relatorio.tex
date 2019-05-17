@@ -25,11 +25,11 @@
 
     Exemplo de comando:
     \begin{verbatim}
-    python main.py 10 4 80 200
+    python main.py n k p g
     \end{verbatim}
 
-    No exemplo acima é gerado um grafo com 10 vértices, e o algoritmo executará 200 gerações.
-       
+    No exemplo acima é gerado um grafo com $n$ vértices, e o algoritmo executará $g$ gerações.
 
+    O grafo é gerado usando a função \emph{connected\_watts\_strogatz\_graph} da biblioteca Networkx, que cria um anel com n vértices para então criar arestas com $k$ nodos mais próximos (ou $k - 1$ caso $n$ seja ímpar). Então novas arestas são criadas seguindo que, para cada aresta ($u$, $v$) do anel gerado inicialmente existe a probabilidade $p$ desta aresta ser trocada por uma nova aresta ($u$, $w$) com chance uniforme de escolha para o vértice $w$. O processo inteiro é repetido até o resultado ser um grafo conexo.
 
 \end{document}

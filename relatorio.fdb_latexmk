@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1558052788 "/home/eassisv/code/GA/genetic_algorithm/relatorio.tex" "/home/eassisv/code/GA/genetic_algorithm/relatorio.pdf" "relatorio" 1558052791
-  "/home/eassisv/code/GA/genetic_algorithm/relatorio.aux" 1558052789 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/eassisv/code/GA/genetic_algorithm/relatorio.tex" 1558052791 1774 d63b476203a6175ce943bef18e33a166 ""
+["pdflatex"] 1558055171 "/home/eassisv/code/GA/genetic_algorithm/relatorio.tex" "/home/eassisv/code/GA/genetic_algorithm/relatorio.pdf" "relatorio" 1558055172
+  "/home/eassisv/code/GA/genetic_algorithm/relatorio.aux" 1558055171 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/eassisv/code/GA/genetic_algorithm/relatorio.tex" 1558055171 2299 619099e0f175a1dc011d532512dfd6b3 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1550406775 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1550406775 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -20,6 +20,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1550406775 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1550406775 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1550406775 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1550406775 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1550406775 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1550406775 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/share/texmf-dist/tex/latex/base/article.cls" 1550406775 19933 3097d1b31d3c45dc957096f554529032 ""
@@ -27,11 +28,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1556294936 3106252 d5255ed7fd6ec6ea7699581e9a54cb46 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1556294925 7919196 51d83005b8b3fd1d5faa8b7cb777be89 ""
-  "relatorio.aux" 1558052789 8 a94a2480d3289e625eea47cd1b285758 ""
-  "relatorio.tex" 1558052791 1774 d63b476203a6175ce943bef18e33a166 ""
+  "relatorio.aux" 1558055171 8 a94a2480d3289e625eea47cd1b285758 ""
+  "relatorio.tex" 1558055171 2299 619099e0f175a1dc011d532512dfd6b3 ""
   (generated)
-  "/home/eassisv/code/GA/genetic_algorithm/relatorio.log"
-  "relatorio.log"
   "relatorio.pdf"
-  "/home/eassisv/code/GA/genetic_algorithm/relatorio.pdf"
+  "/home/eassisv/code/GA/genetic_algorithm/relatorio.log"
   "relatorio.aux"
+  "relatorio.log"
+  "/home/eassisv/code/GA/genetic_algorithm/relatorio.pdf"
