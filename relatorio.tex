@@ -1,0 +1,35 @@
+\documentclass[a4paper, 12pt]{article}
+
+\title{Trabalho I do Componente Currícular de Inteligência Artificial de 2019 \\ %
+        \large Algoritmo Genético}
+
+\author{Éverton de A. Vieira e Gabriel H. Moro}
+\date{17 de maio de 2019}
+
+\begin{document}
+    \maketitle{}
+    
+    \section*{Introdução}
+    \subsection*{Objetivo}
+    O objetivo do trabalho é o desenvolvimento e uso de um algoritmo genético para a resolução de um problema a escolha. 
+    \subsection*{Problema Escolhido}
+    O problema escolhido é o problema de coloração de vértices de grafos. O problema consiste em, dado um grafo $G$ qualquer, colorir seus vértices de forma que pares de vértices ligados por uma aresta não possuam a mesma cor.
+
+    \section*{Desenvolvimento}
+    Para o desenvolvimento do trabalho foi utilizada a linguagem \emph{Python $3.5+$} e as bibliotecas \emph{pyeasyga}, para o algoritmo genético, e \emph{Networkx}, para geração e exibição dos grafos.
+    \subsection*{Funcionamento do Programa}
+    O código recebe como entrada quatro valores inteiros, passados como parâmetro na linha de comando de execução, sendo o primeiro a quantidade de vértices,
+    o segundo é a quantidade de vértices que será utilizado pelo algoritmo de geração do grafo para conectar os vértices do ciclo inicialmente gerado pelo algoritmo,
+    o terceiro a probabilidade do algoritmo mudar as ligações das arestas geradas inicialmente entre os vértices 
+    e o quarto argumento é a quantidade de gerações que o algoritmo deve executar.\\ %
+
+    Exemplo de comando:
+    \begin{verbatim}
+    python main.py 10 4 80 200
+    \end{verbatim}
+
+    No exemplo acima é gerado um grafo com 10 vértices, e o algoritmo executará 200 gerações.
+       
+
+
+\end{document}
